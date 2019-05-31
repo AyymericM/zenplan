@@ -3,4 +3,8 @@
     <string name="menu_item_profile">PROFILE</string>
     <string name="menu_item_todos">TODOS</string>
     <string name="menu_item_analytics">ANALYTICS</string>
+
+    <string name="profile_title">My profile</string>
+    <string name="todo_title">My todos</string>
+    <string name="stats_title">My stats</string>
 </resources>

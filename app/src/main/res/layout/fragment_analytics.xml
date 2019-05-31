@@ -2,12 +2,12 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:layout_width="match_parent"
               android:layout_height="match_parent"
-              android:orientation="vertical">
+              android:orientation="vertical" android:layout_marginLeft="20dp" android:layout_marginRight="20dp">
 
     <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="@string/menu_item_analytics"
-            android:gravity="center_vertical|center_horizontal"/>
-
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stats_title"
+            android:gravity="center_vertical|center_horizontal" android:textSize="30sp" android:textStyle="bold"
+            android:textColor="@color/textDark" android:layout_marginTop="35dp"/>
 </LinearLayout>

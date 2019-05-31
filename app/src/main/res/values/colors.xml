@@ -5,4 +5,5 @@
     <color name="colorAccent">#FFD81B60</color>
     <color name="colorGreen">#FF128378</color>
     <color name="menuInactive">#1FFFFFFF</color>
+    <color name="textDark">#FF3D4544</color>
 </resources>
