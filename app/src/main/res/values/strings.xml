@@ -7,4 +7,10 @@
     <string name="profile_title">My profile</string>
     <string name="todo_title">My todos</string>
     <string name="stats_title">My stats</string>
+
+    <string name="profile_password">Change my password</string>
+    <string name="profile_language">Change the language</string>
+    <string name="profile_account">Delet my account</string>
+    <string name="profile_disconnect">Disconnect</string>
+
 </resources>

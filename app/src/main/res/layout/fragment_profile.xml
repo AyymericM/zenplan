@@ -1,13 +1,104 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
               android:layout_width="match_parent"
               android:layout_height="match_parent"
-              android:orientation="vertical" android:layout_marginLeft="20dp" android:layout_marginRight="20dp">
+              android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:orientation="vertical">
 
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/profile_title"
-            android:gravity="center_vertical|center_horizontal" android:textSize="30sp" android:textStyle="bold"
-            android:textColor="@color/textDark" android:layout_marginTop="35dp"/>
+            android:gravity="center_vertical|center_horizontal"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@color/textDark"
+            android:layout_marginTop="35dp"
+    />
+    <TextView
+            android:text="John Doe"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:baselineAligned="false"
+            android:textAlignment="gravity"
+            android:layout_marginTop="35dp"
+            android:textSize="18sp"
+            android:textColor="@color/textDark"
+    />
+    <TextView
+            android:text="21 years old"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:baselineAligned="false"
+            android:textAlignment="gravity"
+            android:layout_marginTop="35dp"
+            android:textSize="18sp"
+            android:textColor="@color/textDark"
+    />
+    <TextView
+            android:text="johndoe@mail.com"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:baselineAligned="false"
+            android:textAlignment="gravity"
+            android:layout_marginTop="35dp"
+            android:textSize="18sp"
+            android:textColor="@color/textDark"
+    />
+    <TextView
+        android:text="@string/profile_password"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:baselineAligned="false"
+        android:textAlignment="gravity"
+        android:layout_marginTop="84dp"
+        android:textSize="18sp"
+        android:textColor="@color/textDark"
+    />
+    <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="35dp"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteY="357dp">
+
+        <ImageButton
+                android:layout_width="18dp"
+                android:layout_height="16dp"
+                app:srcCompat="@android:drawable/sym_def_app_icon"
+                android:id="@+id/imageButton"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="4dp"/>
+        <TextView
+                android:text="@string/profile_language"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteY="0dp"
+                android:id="@+id/textView3"
+                app:layout_constraintStart_toEndOf="@+id/imageButton"
+                android:layout_marginStart="8dp"
+                android:textSize="18sp"
+                android:textColor="@color/textDark"
+        />
+    </android.support.constraint.ConstraintLayout>
+    <TextView
+            android:text="@string/profile_account"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:baselineAligned="false"
+            android:textAlignment="gravity"
+            android:layout_marginTop="35dp"
+            android:textSize="18sp"
+            android:textColor="@color/textDark"
+    />
+    <TextView
+            android:text="@string/profile_disconnect"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:baselineAligned="false"
+            android:textAlignment="gravity"
+            android:layout_marginTop="35dp"
+            android:textSize="18sp"
+            android:textColor="@color/colorAccent"
+    />
 </LinearLayout>
