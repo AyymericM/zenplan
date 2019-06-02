@@ -14,5 +14,12 @@ class NewItemActivity : AppCompatActivity() {
         cancelBtn.setOnClickListener {
             finish()
         }
+
+        val openTimeDialog: TextView = findViewById(R.id.timePickerBtn)
+
+        openTimeDialog.setOnClickListener {
+            val newFragment = TimePickerFragment()
+            newFragment.show(supportFragmentManager, "timePicker")
+        }
     }
 }
