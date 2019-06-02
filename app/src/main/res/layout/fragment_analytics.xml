@@ -9,5 +9,6 @@
             android:layout_height="wrap_content"
             android:text="@string/stats_title"
             android:gravity="center_vertical|center_horizontal" android:textSize="30sp" android:textStyle="bold"
-            android:textColor="@color/textDark" android:layout_marginTop="35dp"/>
+            android:textColor="@color/textDark" android:layout_marginTop="35dp"
+            android:fontFamily="@font/raleway_medium"/>
 </LinearLayout>

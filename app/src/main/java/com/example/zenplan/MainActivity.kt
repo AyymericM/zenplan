@@ -1,11 +1,10 @@
 package com.example.zenplan
 
-import android.support.design.widget.BottomNavigationView
-import android.support.v7.app.AppCompatActivity
+import android.content.Intent
 import android.os.Bundle
-import android.support.design.widget.Snackbar
+import android.support.design.widget.BottomNavigationView
 import android.support.v4.app.Fragment
-import android.support.v7.app.ActionBar
+import android.support.v7.app.AppCompatActivity
 import android.view.View
 
 class MainActivity : AppCompatActivity() {
@@ -51,9 +50,9 @@ class MainActivity : AppCompatActivity() {
         // FAB ACTION
 
         val fab: View = findViewById(R.id.fab)
-        fab.setOnClickListener { view ->
-            Snackbar.make(view, "TODO: Afficher un menu pour créer une todo", Snackbar.LENGTH_LONG)
-                .show()
+        fab.setOnClickListener {
+            val intent = Intent(this, NewItemActivity::class.java)
+            startActivity(intent)
         }
 
         // BOTTOM NAVIGATION
