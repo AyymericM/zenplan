@@ -15,6 +15,11 @@ class NewItemActivity : AppCompatActivity() {
             finish()
         }
 
+        val saveBtn: TextView = findViewById(R.id.saveBtn)
+        saveBtn.setOnClickListener {
+            finish()
+        }
+
         val openTimeDialog: TextView = findViewById(R.id.timePickerBtn)
 
         openTimeDialog.setOnClickListener {
