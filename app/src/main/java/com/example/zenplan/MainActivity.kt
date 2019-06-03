@@ -12,18 +12,18 @@ class MainActivity : AppCompatActivity() {
     private val mOnNavigationItemSelectedListener = BottomNavigationView.OnNavigationItemSelectedListener { item ->
         when (item.itemId) {
             R.id.navigation_profile -> {
-                val songsFragment = ProfileFragment.newInstance()
-                openFragment(songsFragment)
+                val profileFragment = ProfileFragment.newInstance()
+                openFragment(profileFragment)
                 return@OnNavigationItemSelectedListener true
             }
             R.id.navigation_todo -> {
-                val albumsFragment = TodosFragment.newInstance()
-                openFragment(albumsFragment)
+                val todoFragment = TodosFragment.newInstance()
+                openFragment(todoFragment)
                 return@OnNavigationItemSelectedListener true
             }
             R.id.navigation_analytics -> {
-                val artistsFragment = AnalyticsFragment.newInstance()
-                openFragment(artistsFragment)
+                val analyticsFragment = AnalyticsFragment.newInstance()
+                openFragment(analyticsFragment)
                 return@OnNavigationItemSelectedListener true
             }
         }
