@@ -17,6 +17,11 @@
     <string name="stats_week"><u>Weekly</u></string>
     <string name="stats_month">Monthly</string>
     <string name="stats_doing">You are doing great with</string>
+    <string name="stats_yoga">Yoga</string>
+    <string name="stats_cooking">Cooking</string>
+    <string name="stats_focus">You should focus on</string>
+    <string name="stats_reading">Reading</string>
+    <string name="stats_shopping">Shopping</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
