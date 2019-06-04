@@ -38,8 +38,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun openDefaultFragment() {
-        val albumsFragment = TodosFragment.newInstance()
-        openFragment(albumsFragment)
+        val todoFragment = TodosFragment.newInstance()
+        openFragment(todoFragment)
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
